@@ -44,10 +44,10 @@ namespace Colour2Arduino
             this.radOpen = new System.Windows.Forms.RadioButton();
             this.radClose = new System.Windows.Forms.RadioButton();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.staLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.staConnection = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -77,7 +77,7 @@ namespace Colour2Arduino
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(262, 120);
+            this.btnSend.Location = new System.Drawing.Point(261, 127);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(79, 32);
             this.btnSend.TabIndex = 3;
@@ -128,14 +128,14 @@ namespace Colour2Arduino
             this.portToolStrip});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(836, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(836, 33);
             this.menuStrip1.TabIndex = 8;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // portToolStrip
             // 
             this.portToolStrip.Name = "portToolStrip";
-            this.portToolStrip.Size = new System.Drawing.Size(89, 32);
+            this.portToolStrip.Size = new System.Drawing.Size(89, 29);
             this.portToolStrip.Text = "Port No";
             // 
             // radOpen
@@ -175,6 +175,16 @@ namespace Colour2Arduino
             this.statusStrip1.TabIndex = 11;
             this.statusStrip1.Text = "statusStrip";
             // 
+            // toolStripDropDownButton1
+            // 
+            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
+            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
+            this.toolStripDropDownButton1.Size = new System.Drawing.Size(108, 29);
+            this.toolStripDropDownButton1.Text = "COM Port";
+            this.toolStripDropDownButton1.ToolTipText = "Com Port";
+            // 
             // staLabel
             // 
             this.staLabel.Name = "staLabel";
@@ -199,21 +209,11 @@ namespace Colour2Arduino
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Port Control";
             // 
-            // toolStripDropDownButton1
-            // 
-            this.toolStripDropDownButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripDropDownButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripDropDownButton1.Image")));
-            this.toolStripDropDownButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripDropDownButton1.Name = "toolStripDropDownButton1";
-            this.toolStripDropDownButton1.Size = new System.Drawing.Size(108, 29);
-            this.toolStripDropDownButton1.Text = "COM Port";
-            this.toolStripDropDownButton1.ToolTipText = "Com Port";
-            // 
             // splitter1
             // 
-            this.splitter1.Location = new System.Drawing.Point(0, 36);
+            this.splitter1.Location = new System.Drawing.Point(0, 33);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(3, 413);
+            this.splitter1.Size = new System.Drawing.Size(3, 416);
             this.splitter1.TabIndex = 13;
             this.splitter1.TabStop = false;
             // 
